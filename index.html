@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>BlueJeans</title>
 </head>
 <body>
@@ -46,27 +47,27 @@
         <section class="section" id="bannerSection">
             <div class="container">
                 
-                <div id="carouselExample" class="carousel slide">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="true">
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
+                    <div class="carousel-item active">
+                        <img src="images/jean pool2.jpg" class="img-fluid image banner-img w-100 d-block mx-auto" alt="placeholder img">
+                    </div>
+                    <div class="carousel-item">
                         <img src="images/logo.jpg" class="img-fluid image banner-img w-100 d-block mx-auto" alt="placeholder img">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/frontimage.jpg" class="img-fluid image banner-img w-100 d-block mx-auto" alt="placeholder img">
+                    </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
+                </div>
             </div>
         </section>
         <section class="section" id="section1">
@@ -77,13 +78,13 @@
                         <div class="card h-100">
                             <img src="images/boyfriend.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">wide leg loose fit</h3>
-                                <p class="card-text display-3">The Carrie</p>
+                                <h3 class="card-title">The Carrie</h3>
+                                <p class="card-text-2 display-3">wide leg loose fit</p>
                                 <p class="card-text">light wash</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">$89.99</p>
-                                <button class="btn btn-danger cart-btn">add to cart</button>
+                                <p class="card-text">$79.99</p>
+                                <button class="btn cart-btn">add to cart</button>
                             </footer>
                         </div>    
                     </div>
@@ -91,12 +92,12 @@
                         <div class="card h-100">
                             <img src="images/straight skinny.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">low-rise skinny cropped</h3>
-                                <p class="card-text display-3">The Allison</p>
+                                <h3 class="card-title">The Allison</h3>
+                                <p class="card-text-2 display-3">skinny cropped</p>
                                 <p class="card-text">medium wash</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">$69.99</p>
+                                <p class="card-text">SALE! $49.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>    
@@ -105,9 +106,9 @@
                         <div class="card h-100">
                             <img src="images/90s straight.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">90's mid-rise straight leg</h3>
-                                <p class="card-text display-3">The Kylie</p>
-                                <p class="card-text">stone wash</p>
+                                <h3 class="card-title">The Kylie</h3>
+                                <p class="card-text-2 display-3">90's mid-rise</p>
+                                <p class="card-text">sand wash</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text">$79.99</p>
@@ -119,12 +120,12 @@
                         <div class="card h-100">
                             <img src="images/ripped straight.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">high-wasted straight leg ripped</h3>
-                                <p class="card-text display-3">The Tara</p>
+                                <h3 class="card-title">The Rocker</h3>
+                                <p class="card-text-2 display-3">high-rise straight leg</p>
                                 <p class="card-text">light wash</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">$79.99</p>
+                                <p class="card-text">SALE! $59.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>    
@@ -140,8 +141,8 @@
                         <div class="card h-100">
                             <img src="images/dark ripped wide.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">wide leg ripped</h3>
-                                <p class="card-text display-3">The Jenna</p>
+                                <h3 class="card-title">The Jenna</h3>
+                                <p class="card-text-2 display-3">wide leg ripped</p>
                                 <p class="card-text">dark wash</p>
                             </div>
                             <footer class="card-footer">
@@ -154,12 +155,12 @@
                         <div class="card h-100">
                             <img src="images/flower print.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">loose fit wide leg</h3>
-                                <p class="card-text display-3">The Lacey</p>
+                                <h3 class="card-title">The Lacey</h3>
+                                <p class="card-text-2 display-3">loose fit wide leg</p>
                                 <p class="card-text">light wash flower print</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">price</p>
+                                <p class="card-text">$69.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>    
@@ -168,12 +169,12 @@
                         <div class="card h-100">
                             <img src="images/skinnypose.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">mid rise skinny</h3>
-                                <p class="card-text display-3">The Skinny</p>
-                                <p class="card-text">dark wash faded</p>
+                                <h3 class="card-title">The Skinny</h3>
+                                <p class="card-text-2 display-3">mid rise skinny</p>
+                                <p class="card-text">stone wash faded</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">price</p>
+                                <p class="card-text"> $59.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>    
@@ -182,12 +183,12 @@
                         <div class="card h-100">
                             <img src="images/flare flare.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">high wasted flare w/stretch</h3>
-                                <p class="card-text display-3">The Summer</p>
+                                <h3 class="card-title">The Julie</h3>
+                                <p class="card-text-2 display-3">high wasted flare</p>
                                 <p class="card-text">medium wash</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">price</p>
+                                <p class="card-text">$79.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>    
@@ -196,9 +197,9 @@
                         <div class="card h-100">
                             <img src="images/skinny cuffed.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">high wasted loose fit</h3>
-                                <p class="card-text display-3">Mom Jean</p>
-                                <p class="card-text">light wash</p>
+                                <h3 class="card-title">Mom Jean</h3>
+                                <p class="card-text-2 display-3">high wasted loose fit</p>
+                                <p class="card-text">sand wash</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text">$79.99</p>
@@ -210,8 +211,8 @@
                         <div class="card h-100">
                             <img src="images/dark flare.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">bootcut</h3>
-                                <p class="card-text display-3">The Leslie</p>
+                                <h3 class="card-title">The Leslie</h3>
+                                <p class="card-text-2 display-3">mid rise bootcut</p>
                                 <p class="card-text">dark wash</p>
                             </div>
                             <footer class="card-footer">
@@ -222,11 +223,11 @@
                     </div>
                     <div class="col d-none d-lg-block">
                         <div class="card h-100">
-                            <img src="images/wide leg.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/thiscargo.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">loose fit wide leg</h3>
-                                <p class="card-text display-3">The Monica</p>
-                                <p class="card-text">light wash</p>
+                                <h3 class="card-title">The Monica</h3>
+                                <p class="card-text-2 display-3">90's loose fit cargo</p>
+                                <p class="card-text">sand wash</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text">$79.99</p>
@@ -236,11 +237,11 @@
                     </div>
                     <div class="col d-none d-lg-block">
                         <div class="card h-100">
-                            <img src="images/cargo straight.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/wide leg.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">90's loose fit cargo</h3>
-                                <p class="card-text display-3">The Tonya</p>
-                                <p class="card-text">stone wash</p>
+                                <h3 class="card-title">The Tonya</h3>
+                                <p class="card-text-2 display-3">loose fit wide leg</p>
+                                <p class="card-text">light wash</p>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-text">$79.99</p>
@@ -258,11 +259,25 @@
                         <div class="card h-100">
                             <img src="images/flare cropped.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">cropped flare with stretch</h3>
-                                <p class="card-text display-3">The Jill</p>
+                                <h3 class="card-title">The Jill</h3>
+                                <p class="card-text-2 display-3">cropped flare</p>
                                 <p class="card-text">medium wash</p>
                             </div>
                             <footer class="card-footer">
+                                <p class="card-text">SALE! $59.99</p>
+                                <button class="btn btn-danger cart-btn">add to cart</button>
+                            </footer>
+                        </div>    
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/straight rocker.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <div class="card-body">
+                                <h3 class="card-title">The Tara</h3>
+                                <p class="card-text-2 display-3">wide leg ripped</p>
+                                <p class="card-text">light wash</p>
+                            </div>
+                            <footer class="card-footer">
                                 <p class="card-text">$69.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
@@ -270,42 +285,28 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="images/straight leg.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/chic.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">loose fit straight leg</h3>
-                                <p class="card-text display-3">The Hannah</p>
+                                <h3 class="card-title">The Ginny</h3>
+                                <p class="card-text-2 display-3">skinny straight leg</p>
                                 <p class="card-text">dark wash</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">$69.99</p>
-                                <button class="btn btn-danger cart-btn">add to cart</button>
-                            </footer>
-                        </div>    
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="images/3pair.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
-                            <div class="card-body">
-                                <h3 class="card-title">ankle skinny w/stretch</h3>
-                                <p class="card-text display-3">The Ginny</p>
-                                <p class="card-text">medium, light, and stone wash</p>
-                            </div>
-                            <footer class="card-footer">
-                                <p class="card-text">price</p>
+                                <p class="card-text">$89.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>    
                     </div>
                     <div class="col d-md-none d-lg-block">
                         <div class="card h-100">
-                            <img src="images/straight rocker.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
+                            <img src="images/baggy ston.jpg" alt="placeholder img" class="img-fluid image card-img card-img-top" />
                             <div class="card-body">
-                                <h3 class="card-title">Wide leg ripped</h3>
-                                <p class="card-text display-3">The Rocker</p>
-                                <p class="card-text">light wash</p>
+                                <h3 class="card-title">The Lindsey</h3>
+                                <p class="card-text-2 display-3">baggy wide leg</p>
+                                <p class="card-text">stone wash</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text">price</p>
+                                <p class="card-text">$79.99</p>
                                 <button class="btn btn-danger cart-btn">add to cart</button>
                             </footer>
                         </div>    
@@ -329,7 +330,7 @@
                             <input type="email" class="form-control" id="email" value="">
                         </div>
                         <div class="mb-3">
-                            <button class="btn btn-primary" id="confirmBtn">submit</button>
+                            <button class="btn" id="confirmBtn">submit</button>
                         </div>
                     </form>
                 </div>
